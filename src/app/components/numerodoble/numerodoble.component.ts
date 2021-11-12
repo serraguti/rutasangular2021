@@ -14,7 +14,7 @@ export class NumerodobleComponent implements OnInit {
   //PARA RECUPERAR PARAMETROS
   //AN ANGULAR, LOS OBJETOS INYECTADOS SE DENOMINAN 
   //CON GUION BAJO
-  constructor(_activeRoute: ActivatedRoute
+  constructor(private _activeRoute: ActivatedRoute
     , private _router: Router) { }
 
   redirect(num: number): void{
