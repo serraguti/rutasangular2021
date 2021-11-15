@@ -13,6 +13,7 @@ import { Error404Component } from './components/error404/error404.component';
 import { NumerodobleComponent } from './components/numerodoble/numerodoble.component';
 import { MenucollatzComponent } from './components/menucollatz/menucollatz.component';
 import { CollatzComponent } from './components/collatz/collatz.component';
+import { ListaproductosComponent } from './components/listaproductos/listaproductos.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { CollatzComponent } from './components/collatz/collatz.component';
     Error404Component,
     NumerodobleComponent,
     MenucollatzComponent,
-    CollatzComponent
+    CollatzComponent,
+    ListaproductosComponent
   ],
   imports: [
     BrowserModule, routing

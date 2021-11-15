@@ -9,12 +9,14 @@ import { TelevisionComponent } from "./components/television/television.componen
 import { Error404Component } from "./components/error404/error404.component";
 import { NumerodobleComponent } from "./components/numerodoble/numerodoble.component";
 import { CollatzComponent } from "./components/collatz/collatz.component";
+import { ListaproductosComponent } from "./components/listaproductos/listaproductos.component";
 
 //DEFINIMOS EL ARRAY DE RUTAS PARA LA NAVEGACION
 //QUE ES DE TIPO Routes
 const appRoutes: Routes = [
     //EN path LA BARRA YA ESTA IMPLICITA, NO SE PONE
     {path: "", component: HomeComponent},
+    { path: "listaproductos", component: ListaproductosComponent},
     { path: "collatz/:collatz", component: CollatzComponent},
     {path: "numerodoble", component: NumerodobleComponent},
     {path: "numerodoble/:numero", component:NumerodobleComponent},
