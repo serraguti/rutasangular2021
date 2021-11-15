@@ -8,12 +8,14 @@ import { CineComponent } from "./components/cine/cine.component";
 import { TelevisionComponent } from "./components/television/television.component";
 import { Error404Component } from "./components/error404/error404.component";
 import { NumerodobleComponent } from "./components/numerodoble/numerodoble.component";
+import { CollatzComponent } from "./components/collatz/collatz.component";
 
 //DEFINIMOS EL ARRAY DE RUTAS PARA LA NAVEGACION
 //QUE ES DE TIPO Routes
 const appRoutes: Routes = [
     //EN path LA BARRA YA ESTA IMPLICITA, NO SE PONE
     {path: "", component: HomeComponent},
+    { path: "collatz/:collatz", component: CollatzComponent},
     {path: "numerodoble", component: NumerodobleComponent},
     {path: "numerodoble/:numero", component:NumerodobleComponent},
     {path: "home", component: HomeComponent},
